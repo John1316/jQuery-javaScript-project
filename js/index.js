@@ -8,7 +8,7 @@ $("#options i").click(function(){
 
 
 let lis = $("#options ul li");
-let hs = $("h1,h2,h3,h4,h5,h6,p");
+let hs = $("h1,h2,h3,h4,h5,h6");
 
 for (let i = 0; i < lis.length; i++) {
     let x = Math.round(Math.random() * 254);
