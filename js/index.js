@@ -43,7 +43,7 @@ $(window).scroll(function(){
     let scrollTop = $(window).scrollTop();
 if (scrollTop >  profileOffset)
 {
-    $("nav").css("backgroundColor","rgba(0,0,0,0.8)")
+    $("nav").css("backgroundColor","rgba(0,0,0)")
 }
 else 
 {
@@ -73,6 +73,10 @@ $("nav a").click(function(){
     $("body,html").animate({scrollTop:linksOffset},1000) 
 
 }) //nav link smoothing
+function darkBtn() {
+	var element = document.body;
+	element.classList.toggle("dark-mode");
+}
 
 
 
