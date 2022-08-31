@@ -81,11 +81,11 @@ function darkBtn() {
 
 
 $(document).ready(function(){
-    $("#loading").fadeOut(2000,function(){
+    $("#loading").fadeOut(function(){
         $("body").css("overflow","auto")
     });
 
-}) //loading screen
+})
 
 
 /*
